@@ -3,7 +3,7 @@
 
 ## Up & Going
 
-## Scop & Closures
+## Scope & Closures
 
 ## this & Object Prototypes
 
@@ -33,10 +33,44 @@ for (let i = 0; i < 5; i++) {
         console.log( i );
     } );
 }
-```
-funcs[3]();     // 3
 
+funcs[3]();     // 3
+```
 The `let i` redeclares a new i for each iteration of the loop. If use var, not one copy of i is created. So the result of last line will be 5.
 ```javascript
 funcs[3]();     // 5
 ```
+
+#### Block-scoped Functions
+```javascript
+if (something) {
+  function foo() {
+    console.log("1");
+  }
+} else {
+  function foo() {
+    console.log("2");
+  }
+}
+
+foo()
+```
+In pre-ES6 environments, foo() would print "2" regardless of the value something, because both function declarations were hoisted out of blocks, and the second one always wins.
+In ES6, that last line throws a ReferenceError
+
+#### Default Value Expressions
+Formal parameters in a function declaration are in their own scope, not in the function body's scope. Reference to an identifier in a default value expression first matches the formal parameters' scope before looking to an outer scope.
+
+A default value expression can even be an inline function expression call.
+```javascript
+function foo( x =
+    (function(v){ return v + 11; })( 31 )
+) {
+    console.log( x );
+}
+
+foo();          // 42
+```
+
+#### Bookmark
+[Destructuring](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#destructuring)
