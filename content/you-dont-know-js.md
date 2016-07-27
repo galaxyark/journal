@@ -1,5 +1,5 @@
 # Learning journal of You Don't Know JS
-[Link](https://github.com/getify/You-Dont-Know-JS)
+[Free Book Online Book](https://github.com/getify/You-Dont-Know-JS)
 
 ## Up & Going
 
@@ -62,6 +62,7 @@ In ES6, that last line throws a ReferenceError
 Formal parameters in a function declaration are in their own scope, not in the function body's scope. Reference to an identifier in a default value expression first matches the formal parameters' scope before looking to an outer scope.
 
 A default value expression can even be an inline function expression call.
+
 ```javascript
 function foo( x =
     (function(v){ return v + 11; })( 31 )
@@ -72,5 +73,21 @@ function foo( x =
 foo();          // 42
 ```
 
-#### Bookmark
-[Destructuring](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#destructuring)
+#### Destructuring
+```javascript
+var a, b, c, x, y, z;
+
+[a,b,c] = foo();
+( { x, y, z } = bar() );
+
+console.log( a, b, c );             // 1 2 3
+console.log( x, y, z );             // 4 5 6
+```
+
+`Note`: For the object destructuring form specifically, when leaving off a var/let/const declarator, we had to surround the whole assignment expression in (), because otherwise the  {...} on the lefthand side as the first element in the statement is taken to be a block statement instead of an object.
+
+Destructuring Assignment Expressions[https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#destructuring-assignment-expressions]
+By carrying the object/array value through as the completion, you can chain destructuring assignment expressions together.
+
+
+[Default Value Assignment](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#default-value-assignment)
