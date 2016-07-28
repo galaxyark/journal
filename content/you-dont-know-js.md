@@ -89,5 +89,5 @@ console.log( x, y, z );             // 4 5 6
 [Destructuring Assignment Expressions](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#destructuring-assignment-expressions)
 By carrying the object/array value through as the completion, you can chain destructuring assignment expressions together.
 
-
+:bookmark:
 [Default Value Assignment](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#default-value-assignment)
