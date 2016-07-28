@@ -89,5 +89,22 @@ console.log( x, y, z );             // 4 5 6
 [Destructuring Assignment Expressions](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#destructuring-assignment-expressions)
 By carrying the object/array value through as the completion, you can chain destructuring assignment expressions together.
 
+[DEstructuring Defaults + Parameter Defaults](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#destructuring-defaults--parameter-defaults)
+
+```javascript
+function f6({ x = 10 } = {}, { y } = { y: 10 }) {
+    console.log( x, y );
+}
+
+f6();                               // 10 10
+f6( undefined, undefined );         // 10 10
+f6( {}, undefined );                // 10 10
+
+f6( {}, {} );                       // 10 undefined
+f6( undefined, {} );                // 10 undefined
+
+f6( { x: 2 }, { y: 3 } );           // 2 3
+```
+
 :bookmark:
 [Default Value Assignment](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#default-value-assignment)
