@@ -86,7 +86,7 @@ console.log( x, y, z );             // 4 5 6
 
 `Note`: For the object destructuring form specifically, when leaving off a var/let/const declarator, we had to surround the whole assignment expression in (), because otherwise the  {...} on the lefthand side as the first element in the statement is taken to be a block statement instead of an object.
 
-Destructuring Assignment Expressions[https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#destructuring-assignment-expressions]
+[Destructuring Assignment Expressions](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#destructuring-assignment-expressions)
 By carrying the object/array value through as the completion, you can chain destructuring assignment expressions together.
 
 
