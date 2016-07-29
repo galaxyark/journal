@@ -106,5 +106,67 @@ f6( undefined, {} );                // 10 undefined
 f6( { x: 2 }, { y: 3 } );           // 2 3
 ```
 
+#### Concise Methods
+```javascript
+var o = {
+    x() {
+        // ..
+    },
+    y() {
+        // ..
+    }
+}
+```
+Thie concise methods definition implies `something: function(x, y)`. Concise methods imply anonymous function expressions.
+
+##### Concisely Unnamed
+```javascript
+runSomething( {
+    something(x,y) {
+        if (x > y) {
+            return something( y, x );
+        }
+
+        return y - x;
+    }
+} );
+```
+Use named function for a better recursion. This could avoid ugly code like `let self = this`
+
+#### Computed Property Names [..]
+```javascript
+let prefix = "user_";
+let o = {
+  baz: function(..){..},
+  [ prefix + "foo"]: function(..){..},
+  [ prefix + "boo"]: function(..){..}
+};
+```
+
+#### Warning
+As a word of caution, be very careful about the readability of your code with such new found power. Just like with default value expressions and destructuring assignment expressions, just because you can do something doesn't mean you should do it. Never go so overboard with new ES6 tricks that your code becomes more clever than you or your other team members.
+
+#### Tagged Template Literals
+```javascript
+function foo(strings, ...values) {
+    console.log( strings );
+    console.log( values );
+}
+
+function bar() {
+    return function foo(strings, ...values) {
+        console.log( strings );
+        console.log( values );
+    }
+}
+
+var desc = "awesome";
+
+foo`Everything is ${desc}!`;
+// [ "Everything is ", "!"]
+// [ "awesome" ]
+bar()`Everything is ${desc}!`;
+```
+
 :bookmark:
-[Default Value Assignment](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#default-value-assignment)
+[Tagged Template Literals](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/ch2.md#tagged-template-literals)
