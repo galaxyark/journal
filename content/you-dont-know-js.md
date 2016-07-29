@@ -1,5 +1,5 @@
 # Learning journal of You Don't Know JS
-[Free Book Online Book](https://github.com/getify/You-Dont-Know-JS)
+[Online Book](https://github.com/getify/You-Dont-Know-JS)
 
 ## Up & Going
 
