@@ -10,3 +10,6 @@ Jack Franklin takes a look at Higher Order Components, a design pattern that hel
 
 #### [React Monocle: A Tool to Visualize A React Application's Component Hierarchy](https://github.com/team-gryff/react-monocle)
 Parses your React project’s source files to generate a visual tree graph representing the React component hierarchy.
+
+#### [What Do the Popular JavaScript Tools Depend On?](http://developer.telerik.com/featured/popular-javascript-tools-depend)
+Examining the dependencies of popular tools and frameworks including Angular, React, jQuery, and Aurelia.
