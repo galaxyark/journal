@@ -12,6 +12,9 @@
 ## Async & Performance
 
 ## ES6 & Beyond
+
+### Chapter 2: Syntax
+
 #### Unlink var, let doesn't do hoisting
 ```javascript
 {
@@ -201,5 +204,32 @@ var dec = 42,
     bin = 0b101010;     // or `0B101010` :/
 ```
 
+#### Regular expressions
+#### Unicode
+
+#### Symbol
+`Symbol`
+`Symbol.for`
+
+##### Symbol as Object Properites
+```javascript
+var o = {
+    foo: 42,
+    [ Symbol( "bar" ) ]: "hello world",
+    baz: true
+};
+
+Object.getOwnPropertyNames( o );    // [ "foo","baz" ]
+Object.getOwnPropertySymbols( o );  // [ Symbol(bar) ]
+```
+
+### chapter 3: Organization
+### chapter 4: Async Flow Control
+### chapter 5: Collections
+### chapter 6: API Additions
+### chapter 7: Meta Programming
+### chapter 8: Beyond ES6
+
+
 :bookmark:
-[Unicode](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20%26%20beyond/ch2.md#unicode)
+[Iterators](https://github.com/getify/You-Dont-Know-JS/blob/4850bcaf4e1a1abe4dc64fae846cb5235d8f4c18/es6%20%26%20beyond/ch3.md#iterators)
