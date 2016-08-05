@@ -224,6 +224,101 @@ Object.getOwnPropertySymbols( o );  // [ Symbol(bar) ]
 ```
 
 ### chapter 3: Organization
+#### iterators
+```
+Iterator [optional]
+    return() {method}: stops iterator and returns IteratorResult
+    throw() {method}: signals error and returns IteratorResult
+
+IteratorResult
+    value {property}: current iteration value or final return value
+        (optional if `undefined`)
+    done {property}: boolean, indicates completion status
+
+Iterable
+    @@iterator() {method}: produces an Iterator
+```
+
+Use iterators to organize not only data, but also functions. Yeah, JavaScript is a functional programming language.
+```javascript
+var tasks = {
+    [Symbol.iterator]() {
+        var steps = this.actions.slice();
+
+        return {
+            // make the iterator an iterable
+            [Symbol.iterator]() { return this; },
+
+            next(...args) {
+                if (steps.length > 0) {
+                    let res = steps.shift()( ...args );
+                    return { value: res, done: false };
+                }
+                else {
+                    return { done: true }
+                }
+            },
+
+            return(v) {
+                steps.length = 0;
+                return { value: v, done: true };
+            }
+        };
+    },
+    actions: []
+};
+
+tasks.actions.push(
+    function step1(x){
+        console.log( "step 1:", x );
+        return x * 2;
+    },
+    function step2(x,y){
+        console.log( "step 2:", x, y );
+        return x + (y * 2);
+    },
+    function step3(x,y,z){
+        console.log( "step 3:", x, y, z );
+        return (x * y) + z;
+    }
+);
+
+var it = tasks[Symbol.iterator]();
+
+it.next( 10 );          // step 1: 10
+                        // { value:   20, done: false }
+
+it.next( 20, 50 );      // step 2: 20 50
+                        // { value:  120, done: false }
+
+it.next( 20, 50, 120 ); // step 3: 20 50 120
+                        // { value: 1120, done: false }
+
+it.next();              // { done: true }
+```
+
+#### Generators(TODO LATER)
+* Producing a series of values: This usage can be simple (e.g., random strings or incremented numbers), or it can represent more structured data access (e.g., iterating over rows returned from a database query).
+
+  Either way, we use the iterator to control a generator so that some logic can be invoked for each call to next(..). Normal iterators on data structures merely pull values without any controlling logic.
+
+* Queue of tasks to perform serially: This usage often represents flow control for the steps in an algorithm, where each step requires retrieval of data from some external source. The fulfillment of each piece of data may be immediate, or may be asynchronously delayed.
+
+  From the perspective of the code inside the generator, the details of sync or async at a yield point are entirely opaque. Moreover, these details are intentionally abstracted away, such as not to obscure the natural sequential expression of steps with such implementation complications. Abstraction also means the implementations can be swapped/refactored often without touching the code in the generator at all.
+
+When generators are viewed in light of these uses, they become a lot more than just a different or nicer syntax for a manual state machine. They are a powerful abstraction tool for organizing and controlling orderly production and consumption of data.
+
+```javascript
+function *foo(x, y) {
+    // ..
+}
+
+foo(5, 10);
+```
+
+
+
+
 ### chapter 4: Async Flow Control
 ### chapter 5: Collections
 ### chapter 6: API Additions
