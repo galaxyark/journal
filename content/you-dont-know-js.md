@@ -327,4 +327,4 @@ foo(5, 10);
 
 
 :bookmark:
-[Iterators](https://github.com/getify/You-Dont-Know-JS/blob/4850bcaf4e1a1abe4dc64fae846cb5235d8f4c18/es6%20%26%20beyond/ch3.md#iterators)
+[Modules](https://github.com/getify/You-Dont-Know-JS/blob/4850bcaf4e1a1abe4dc64fae846cb5235d8f4c18/es6%20%26%20beyond/ch3.md#modules)
