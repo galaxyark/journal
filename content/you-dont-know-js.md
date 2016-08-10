@@ -316,7 +316,10 @@ function *foo(x, y) {
 foo(5, 10);
 ```
 
-
+#### Modules
+```
+Warning: An important detail that's easy to overlook: both import and export must always appear in the top-level scope of their respective usage. For example, you cannot put either an import or export inside an if conditional; they must appear outside of all blocks and functions.
+```
 
 
 ### chapter 4: Async Flow Control
