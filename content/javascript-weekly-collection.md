@@ -14,4 +14,5 @@ Parses your React project’s source files to generate a visual tree graph repre
 #### [What Do the Popular JavaScript Tools Depend On?](http://developer.telerik.com/featured/popular-javascript-tools-depend)
 Examining the dependencies of popular tools and frameworks including Angular, React, jQuery, and Aurelia.
 
-#### []
+#### [A Glimpse Into The Future With React Native For Web](https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/)
+React went from the Web to native with React Native, but now we have React Native for Web which brings React Native’s predictable components to the Web. A full intro here.

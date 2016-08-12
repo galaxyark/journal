@@ -321,6 +321,21 @@ foo(5, 10);
 Warning: An important detail that's easy to overlook: both import and export must always appear in the top-level scope of their respective usage. For example, you cannot put either an import or export inside an if conditional; they must appear outside of all blocks and functions.
 ```
 
+```javascript
+function foo(..) {
+    // ..
+}
+
+export default foo;
+
+
+function foo(..) {
+    // ..
+}
+
+export { foo as default };
+```
+In the first snippet, you are exporting a binding to the function expression value at that moment, not to the identifier foo. The second snippet, the default export binding is actually to the foo identifier rather than its value.
 
 ### chapter 4: Async Flow Control
 ### chapter 5: Collections
