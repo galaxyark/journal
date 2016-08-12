@@ -322,6 +322,19 @@ Warning: An important detail that's easy to overlook: both import and export mus
 ```
 
 ```javascript
+// General exports
+export function foo() {
+  // ...
+}
+
+export var awesome = 42;
+```
+Module exports are not just normal assignments of values or references, you are exporting a binding to that thing.
+
+Within your module, if you change the value of a variable you already exported a binding to, even if it's already been imported, the imported binding will resolve to the current(updated) value.
+
+
+```javascript
 function foo(..) {
     // ..
 }
