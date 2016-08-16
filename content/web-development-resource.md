@@ -45,3 +45,7 @@
 # Online Courses
 * [plurasight](https://www.pluralsight.com/)
 * [Udemy](https://www.udemy.com/)
+
+# Inspiration
+* [React Burger Menu](http://negomi.github.io/react-burger-menu/)
+* [React Tree View](https://github.com/chenglou/react-treeview)
