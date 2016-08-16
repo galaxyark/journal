@@ -9,6 +9,7 @@
 
 ## Collections
 * [JavaScript Weekly](http://javascriptweekly.com)
+* [Smashing Magazine](https://www.smashingmagazine.com/)
 
 ## Libs
 ### Charts & Graphs
@@ -17,11 +18,18 @@
 * [d3js](https://d3js.org/)
 
 ## Frameworks
-* [React]
+* [React](https://facebook.github.io/react/)
+* [Redux](http://redux.js.org/)
+* [Angular](https://angular.io/)
 
 # UI
 ## Collections
 * [Codrops](http://tympanus.net/codrops/)
+* [CSS Tricks](https://css-tricks.com/)
+
+## Frameworks
+* [Bootstrap](http://getbootstrap.com/)
+* [Semantic UI](http://semantic-ui.com/)
 
 # UX
 * [Nielsen Norman Group](https://www.nngroup.com)
@@ -32,4 +40,8 @@
 * [Yeoman](http://yeoman.io/)
 
 # Other
-[AdminLTE](https://almsaeedstudio.com)
+* [AdminLTE](https://almsaeedstudio.com)
+
+# Online Courses
+* [plurasight](https://www.pluralsight.com/)
+* [Udemy](https://www.udemy.com/)
