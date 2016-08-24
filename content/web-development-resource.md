@@ -22,6 +22,9 @@
 * [Redux](http://redux.js.org/)
 * [Angular](https://angular.io/)
 
+## Performance
+* [Async Fragments](http://www.ebaytechblog.com/2014/12/08/async-fragments-rediscovering-progressive-html-rendering-with-marko/)
+
 # UI
 ## Collections
 * [Codrops](http://tympanus.net/codrops/)
