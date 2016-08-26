@@ -16,3 +16,11 @@ Examining the dependencies of popular tools and frameworks including Angular, Re
 
 #### [A Glimpse Into The Future With React Native For Web](https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/)
 React went from the Web to native with React Native, but now we have React Native for Web which brings React Native’s predictable components to the Web. A full intro here.
+
+#### [Cache Fetched AJAX Requests Locally: Wrapping the Fetch API](https://www.sitepoint.com/cache-fetched-ajax-requests/)
+A look at building a wrapper for the Fetch API, step-by-step, to cache fetched AJAX results and avoid repeated requests to the server.
+
+#### [Offline content with service workers](https://madebymike.com.au//writing/service-workers/)
+A simple introduction and look down the ‘deep rabbit hole’ of how powerful and versatile service workers can be for delivering offline content.
+
+#### [From MVC to Flux: The Difference Between Two Architectures](https://www.youtube.com/watch?v=p8tqhf5qKOI)
