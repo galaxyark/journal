@@ -25,5 +25,22 @@ A simple introduction and look down the ‘deep rabbit hole’ of how powerful a
 
 #### [From MVC to Flux: The Difference Between Two Architectures](https://www.youtube.com/watch?v=p8tqhf5qKOI)
 
+# Collection of Codrops
+## Content
+#### [Inspiration for Letter Effects](http://tympanus.net/codrops/2016/10/18/inspiration-for-letter-effects/)
+A set of inspirational letter animations for display typography effects powered by anime.js
+
 #### [How to Develop A Chat Bot With Node.js](https://www.smashingmagazine.com/2016/10/how-to-develop-a-chat-bot-with-node-js/)
 A great tutorial by Slobodan Stojanović on how to create a chat bot with Node.js
+
+#### [Creating the Periodic Table with Grid CSS](https://responsivedesign.is/articles/creating-the-periodic-table-with-grid-css/)
+Justin Avery shows how to put CSS Grids to use and build the periodic table
+
+#### [@supports will change your life](http://www.lottejackson.com/learning/supports-will-change-your-life)
+A great article by Charlotte Jackson where she shows the power of @supports and how to use it.
+
+#### [Reactive Animations with CSS Variables](http://slides.com/davidkhourshid/reactanim#/)
+The awesome slides of David Khourshid’s CSSDevConf talk on reactive animations.
+
+#### [Building a Website Performance Monitor](https://css-tricks.com/building-website-performance-monitor/)
+Eduardo Bouças shows how he built a practical website performance monitor
