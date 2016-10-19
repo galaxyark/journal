@@ -24,3 +24,6 @@ A look at building a wrapper for the Fetch API, step-by-step, to cache fetched A
 A simple introduction and look down the ‘deep rabbit hole’ of how powerful and versatile service workers can be for delivering offline content.
 
 #### [From MVC to Flux: The Difference Between Two Architectures](https://www.youtube.com/watch?v=p8tqhf5qKOI)
+
+#### [How to Develop A Chat Bot With Node.js](https://www.smashingmagazine.com/2016/10/how-to-develop-a-chat-bot-with-node-js/)
+A great tutorial by Slobodan Stojanović on how to create a chat bot with Node.js
