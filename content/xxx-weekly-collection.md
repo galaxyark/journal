@@ -25,6 +25,8 @@ A simple introduction and look down the ‘deep rabbit hole’ of how powerful a
 
 #### [From MVC to Flux: The Difference Between Two Architectures](https://www.youtube.com/watch?v=p8tqhf5qKOI)
 
+#### [A Practical Introduction to ES6 Generator Functions](http://thejsguy.com/2016/10/15/a-practical-introduction-to-es6-generator-functions.html)
+
 # Collection of Codrops
 ## Content
 #### [Inspiration for Letter Effects](http://tympanus.net/codrops/2016/10/18/inspiration-for-letter-effects/)
