@@ -11,6 +11,9 @@
 * [JavaScript Weekly](http://javascriptweekly.com)
 * [Smashing Magazine](https://www.smashingmagazine.com/)
 
+## Articles
+* [What every JavaScript developer should know about Unicode](https://rainsoft.io/what-every-javascript-developer-should-know-about-unicode/)
+
 ## Libs
 ### Charts & Graphs
 * [Highcharts](http://www.highcharts.com/)

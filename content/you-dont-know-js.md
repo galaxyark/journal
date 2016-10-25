@@ -36,6 +36,25 @@ while (true) {
 
 It's important to note that ```setTimeout()``` doesn't put your callback on the event loop queue. What it does is set up  a timer; when the timer expires, the environment places your callback into the event loop, such that some future tick will pick it up and execute it.
 
+#### Promise
+##### Chain Flow
+Async in a .then() and still make it chainable.
+```javascript
+var p = Promise.resolve(21);
+
+p.then(function(v) {
+  console.log(v);
+
+  return new Promise(function(resolve, reject) {
+    setTimeout(function() {
+      resolve(v*2);
+    }, 100);
+  });
+})
+.then(function(v) {
+  console.log(v);
+});
+```
 
 ## ES6 & Beyond
 
