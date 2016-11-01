@@ -6,6 +6,7 @@
 ## Free Books
 * [You Don't Know JavaScript](https://github.com/getify/You-Dont-Know-JS)
 * [React Enlightenment](http://www.reactenlightenment.com)
+* [Modular JavaScript](https://mjavascript.com)
 
 ## Collections
 * [JavaScript Weekly](http://javascriptweekly.com)
