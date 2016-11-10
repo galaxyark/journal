@@ -6,4 +6,5 @@
 
 
 #### To Prepare
-* Radio button, Selected button 
+* Radio button, Check box, Selected
+* Form 
