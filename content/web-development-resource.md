@@ -57,3 +57,7 @@
 # Inspiration
 * [React Burger Menu](http://negomi.github.io/react-burger-menu/)
 * [React Tree View](https://github.com/chenglou/react-treeview)
+
+# Online Tools
+* [HTML5 Outliner](https://gsnedders.html5.org/outliner/)
+* [Can I use](http://caniuse.com/)

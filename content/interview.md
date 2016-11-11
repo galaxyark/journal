@@ -7,4 +7,4 @@
 
 #### To Prepare
 * Radio button, Check box, Selected
-* Form 
+* Form, Figure
