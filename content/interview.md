@@ -21,7 +21,7 @@ if (Object.prototype.toString.call(arraylist) === '[object Array]') {
 Array.isArray(arraylist);
 ```
 
-#### general guideline for addition operators:
+general guideline for addition operators:
 ```
 Number + Number -> Addition
 Boolean + Number -> Addition
@@ -29,4 +29,18 @@ Boolean + Boolean -> Addition
 Number + String -> Concatenation
 String + Boolean -> Concatenation
 String + String -> Concatenation
+```
+
+Hoisting
+```javascript
+var salary = "1000$";
+
+(function () {
+    console.log("Original salary was " + salary);
+
+    var salary = "5000$";
+
+    console.log("My New Salary " + salary);
+})();
+// Output will be `undefined, 5000$`
 ```
