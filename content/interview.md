@@ -8,3 +8,25 @@
 #### To Prepare
 * Radio button, Check box, Selected
 * Form, Figure
+
+
+#### Small cookies
+Check an object is an array or not:
+```javascript
+if (Object.prototype.toString.call(arraylist) === '[object Array]') {
+  return true;
+}
+
+// Or
+Array.isArray(arraylist);
+```
+
+#### general guideline for addition operators:
+```
+Number + Number -> Addition
+Boolean + Number -> Addition
+Boolean + Boolean -> Addition
+Number + String -> Concatenation
+String + Boolean -> Concatenation
+String + String -> Concatenation
+```
