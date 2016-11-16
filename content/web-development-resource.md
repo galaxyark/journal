@@ -7,6 +7,7 @@
 * [You Don't Know JavaScript](https://github.com/getify/You-Dont-Know-JS)
 * [React Enlightenment](http://www.reactenlightenment.com)
 * [Modular JavaScript](https://mjavascript.com)
+* [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
 ## Collections
 * [JavaScript Weekly](http://javascriptweekly.com)
