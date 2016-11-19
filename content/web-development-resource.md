@@ -13,6 +13,7 @@
 * [JavaScript Weekly](http://javascriptweekly.com)
 * [Smashing Magazine](https://www.smashingmagazine.com/)
 * [sitepoint](https://www.sitepoint.com/)
+* [YouTube channels for frontend developers](https://github.com/andrew--r/channels)
 
 ## Articles
 * [What every JavaScript developer should know about Unicode](https://rainsoft.io/what-every-javascript-developer-should-know-about-unicode/)
