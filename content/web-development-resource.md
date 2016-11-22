@@ -36,6 +36,9 @@
 ## Collections
 * [Codrops](http://tympanus.net/codrops/)
 * [CSS Tricks](https://css-tricks.com/)
+* [An Ultimate Guide To CSS Pseudo-Classes
+And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
+
 
 ## Frameworks
 * [Bootstrap](http://getbootstrap.com/)
