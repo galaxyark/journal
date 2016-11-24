@@ -6,6 +6,7 @@
 #### To Prepare
 * Radio button, Check box, Selected
 * Form, Figure
+* box-shadow
 * HTML & CSS small example:
   * Tooltip
   * Dropdown Menu

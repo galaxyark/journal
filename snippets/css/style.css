@@ -78,3 +78,47 @@
   position: absolute;
   top: -315%;
 }
+
+.hover-section ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  list-style-type: none;
+}
+
+.hover-section li {
+  flex-grow: 1;
+  margin: 1%;
+  text-align: center;
+}
+
+.hover-section a {
+  display: block;
+  padding: 10px;
+  background: rgba(0, 0, 0, .1);
+  text-decoration: none;
+  position: relative;
+}
+
+.hover-section a:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: orange;
+  height: 4px;
+  transition-property: right;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
+}
+
+.hover-section a:hover:before, a:focus:before, a:active:before {
+  right: 0;
+}
+
+:target {
+  background: yellow;
+}
