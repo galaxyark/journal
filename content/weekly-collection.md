@@ -27,6 +27,8 @@ A simple introduction and look down the ‘deep rabbit hole’ of how powerful a
 
 #### [A Practical Introduction to ES6 Generator Functions](http://thejsguy.com/2016/10/15/a-practical-introduction-to-es6-generator-functions.html)
 
+#### [Free as in Puppy — Open Sourcing Your JavaScript Code](https://www.sitepoint.com/open-sourcing-javascript-code/)
+
 # Collection of Frontend Focus
 #### [CSS Grid, Flexbox And Box Alignment: Our New System For Web Layout](https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/)
 
