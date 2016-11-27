@@ -7,10 +7,12 @@
 * Radio button, Check box, Selected
 * Form, Figure
 * box-shadow
+* media query
 * HTML & CSS small example:
   * Tooltip
   * Dropdown Menu
   * Calendar
+  * Hover on a button to change content by pure CSS
 
 #### Small cookies
 Check an object is an array or not:

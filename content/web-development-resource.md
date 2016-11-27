@@ -39,6 +39,10 @@
 * [An Ultimate Guide To CSS Pseudo-Classes
 And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
 
+## articals
+* [The 100% correct way to do CSS breakpoints](https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.oa42c22nw)
+
+
 
 ## Frameworks
 * [Bootstrap](http://getbootstrap.com/)
@@ -60,9 +64,15 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 * [Udemy](https://www.udemy.com/)
 
 # Inspiration
+## Components
 * [React Burger Menu](http://negomi.github.io/react-burger-menu/)
 * [React Tree View](https://github.com/chenglou/react-treeview)
+* [Tilt Hover Effects](http://tympanus.net/codrops/2016/11/23/tilt-hover-effects/)
+## Whole Website
+* [Yatzer](https://www.yatzer.com/)
 
 # Online Tools
 * [HTML5 Outliner](https://gsnedders.html5.org/outliner/)
 * [Can I use](http://caniuse.com/)
+* [cssreference](http://cssreference.io/)
+  A beautifully made free visual guide to CSS with illustrated and animated examples of the most popular CSS properties. Made by Jeremy Thomas.
