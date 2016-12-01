@@ -17,6 +17,7 @@
 
 ## Articles
 * [What every JavaScript developer should know about Unicode](https://rainsoft.io/what-every-javascript-developer-should-know-about-unicode/)
+* [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 
 ## Libs
 ### Charts & Graphs
@@ -58,6 +59,7 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 
 # Other
 * [AdminLTE](https://almsaeedstudio.com)
+
 
 # Online Courses
 * [plurasight](https://www.pluralsight.com/)

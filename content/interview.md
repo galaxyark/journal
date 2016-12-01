@@ -13,6 +13,10 @@
   * Dropdown Menu
   * Calendar
   * Hover on a button to change content by pure CSS
+  * Box shadow
+  * Responsive design. - viewport
+* REST API
+
 
 #### Small cookies
 Check an object is an array or not:

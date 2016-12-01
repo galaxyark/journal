@@ -122,3 +122,35 @@
 :target {
   background: yellow;
 }
+
+.fake-input {
+  -webkit-appearance: textfield;
+
+  box-sizing: border-box;
+
+  height: 1.7em;
+  width: 20.2em;
+  padding: 0.25em 0.1em;
+
+  background-color: white;
+  border: 1px solid lightgray;
+
+  overflow: auto;
+
+  margin-bottom: 1em;
+}
+
+.fake-textarea {
+  -webkit-appearance: textarea;
+
+  box-sizing: border-box;
+
+  height: 3.7em;
+  width: 20.2em;
+  padding: 0.25em 0.1em;
+
+  overflow: auto;
+
+  background-color: white;
+  border: 1px solid lightgray;
+}
