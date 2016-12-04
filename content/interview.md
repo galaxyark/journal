@@ -16,13 +16,10 @@
   * Box shadow
   * Responsive design. - viewport
 * REST API
-<<<<<<< 23f0a7e5704d7c95bd9f2f7a9d085cb7480e5dcf
-=======
 * Design
   * Hangman game
   * Calculater
   * TodoList
->>>>>>> update
 
 
 #### Small cookies

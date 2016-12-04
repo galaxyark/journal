@@ -1,5 +1,7 @@
-# Collection of JavaScript Weekly
-This page collect interesting articals from [JavaScript Weekly](http://javascriptweekly.com/)
+This page collect interesting articals from
+* [JavaScript Weekly](http://javascriptweekly.com/)
+* [Frontend Focus](http://frontendfocus.co/)
+* [Codrops](http://tympanus.net/codrops/)
 
 ## Content
 #### [Create React App: Create React Apps with No Build Configuration](https://github.com/facebookincubator/create-react-app)
@@ -29,12 +31,16 @@ A simple introduction and look down the ‘deep rabbit hole’ of how powerful a
 
 #### [Free as in Puppy — Open Sourcing Your JavaScript Code](https://www.sitepoint.com/open-sourcing-javascript-code/)
 
-# Collection of Frontend Focus
 #### [CSS Grid, Flexbox And Box Alignment: Our New System For Web Layout](https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/)
 
+#### [A Deep Dive of CSS Inheritance, The Cascade & Global Scope](https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/)
 
-# Collection of Codrops
-## Content
+#### [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers)
+A thorough up to date introduction to Service Workers, a Web technology that can provide your app with rich offline experiences, periodic background syncs, push notifications, and more.
+
+#### [The 100% Correct Way to Do CSS Breakpoints](https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.5uuysxbsj)
+An interesting experiment and some forthright opinions on where to really draw breakpoints on responsive pages and why.
+
 #### [Inspiration for Letter Effects](http://tympanus.net/codrops/2016/10/18/inspiration-for-letter-effects/)
 A set of inspirational letter animations for display typography effects powered by anime.js
 
@@ -52,3 +58,6 @@ The awesome slides of David Khourshid’s CSSDevConf talk on reactive animations
 
 #### [Building a Website Performance Monitor](https://css-tricks.com/building-website-performance-monitor/)
 Eduardo Bouças shows how he built a practical website performance monitor
+
+#### [Seven Ways You can Place Elements Using CSS Grid Layout](https://www.sitepoint.com/seven-ways-you-can-place-elements-using-css-grid-layout/)
+Nitish Kumar shows seven ways in which CSS Grid Layout lets front-end developers quickly and intuitively place content on the web.

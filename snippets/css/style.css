@@ -154,3 +154,13 @@
   background-color: white;
   border: 1px solid lightgray;
 }
+
+.centered {
+  text-align: center;
+  margin-bottom: -1rem;
+}
+
+.centered > * {
+  display: inline-block;
+  margin: 0 0.5rem 1rem;
+}

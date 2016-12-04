@@ -75,6 +75,7 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 * [Tilt Hover Effects](http://tympanus.net/codrops/2016/11/23/tilt-hover-effects/)
 ## Whole Website
 * [Yatzer](https://www.yatzer.com/)
+* [Sequence](https://www.sequence.co.uk/)
 
 # Online Tools
 * [HTML5 Outliner](https://gsnedders.html5.org/outliner/)
