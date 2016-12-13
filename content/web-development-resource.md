@@ -67,6 +67,7 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 # Online Courses
 * [plurasight](https://www.pluralsight.com/)
 * [Udemy](https://www.udemy.com/)
+* [JavaScript 30](https://javascript30.com/)
 
 # Inspiration
 ## Components
