@@ -63,6 +63,8 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 # Architecture
 * [Infrastructure at Scale Series Articles](https://engineering.linkedin.com/blog/topic/infrastructure-at-scale-series)
   By LinkedIn
+* [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+
 
 # Online Courses
 * [plurasight](https://www.pluralsight.com/)
