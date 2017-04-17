@@ -18,6 +18,7 @@
 ## Articles
 * [What every JavaScript developer should know about Unicode](https://rainsoft.io/what-every-javascript-developer-should-know-about-unicode/)
 * [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+* [ES6 Generators: Complete Series](https://davidwalsh.name/es6-generators)
 
 ## Libs
 ### Charts & Graphs
