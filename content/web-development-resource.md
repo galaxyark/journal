@@ -43,7 +43,7 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 
 ## articals
 * [The 100% correct way to do CSS breakpoints](https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.oa42c22nw)
-
+* [How to build your own progressive image loader](https://www.sitepoint.com/how-to-build-your-own-progressive-image-loader/)
 
 
 ## Frameworks
@@ -77,6 +77,7 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 * [React Burger Menu](http://negomi.github.io/react-burger-menu/)
 * [React Tree View](https://github.com/chenglou/react-treeview)
 * [Tilt Hover Effects](http://tympanus.net/codrops/2016/11/23/tilt-hover-effects/)
+
 ## Whole Website
 * [Yatzer](https://www.yatzer.com/)
 * [Sequence](https://www.sequence.co.uk/)
@@ -89,3 +90,4 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 
 # Tutorial
 * [HTML & CSS is Hard](https://internetingishard.com/html-and-css/)
+* [Design Patterns for HUMANS](https://github.com/kamranahmedse/design-patterns-for-humans)
