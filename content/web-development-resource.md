@@ -1,15 +1,4 @@
-# JavaScript
-## Reference
-* [JavaScript - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
-
-## Free Books
-* [You Don't Know JavaScript](https://github.com/getify/You-Dont-Know-JS)
-* [React Enlightenment](http://www.reactenlightenment.com)
-* [Modular JavaScript](https://mjavascript.com)
-* [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-
-## Collections
+# Collections
 * [JavaScript Weekly](http://javascriptweekly.com)
 * [Smashing Magazine](https://www.smashingmagazine.com/)
 * [A List Apart](https://alistapart.com/)
@@ -17,8 +6,22 @@
 * [scotch.io](https://scotch.io/)
 * [Medium](https://medium.com/)
 * [YouTube channels for frontend developers](https://github.com/andrew--r/channels)
+* [Codrops](http://tympanus.net/codrops/)
+* [CSS Tricks](https://css-tricks.com/)
+* [Nielsen Norman Group](https://www.nngroup.com)
 
-## Articles
+
+# JavaScript
+Something about JavaScript
+## Reference
+* [JavaScript - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+
+## Reading materials
+* [You Don't Know JavaScript](https://github.com/getify/You-Dont-Know-JS)
+* [React Enlightenment](http://www.reactenlightenment.com)
+* [Modular JavaScript](https://mjavascript.com)
+* [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 * [What every JavaScript developer should know about Unicode](https://rainsoft.io/what-every-javascript-developer-should-know-about-unicode/)
 * [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 * [ES6 Generators: Complete Series](https://davidwalsh.name/es6-generators)
@@ -34,19 +37,18 @@
 
 
 # UI/UX
-## Collections
-* [Codrops](http://tympanus.net/codrops/)
-* [CSS Tricks](https://css-tricks.com/)
-* [An Ultimate Guide To CSS Pseudo-Classes
-And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
-* [Nielsen Norman Group](https://www.nngroup.com)
+Something about UI
+## Reference
+* [cssreference](http://cssreference.io/)
+  A beautifully made free visual guide to CSS with illustrated and animated examples of the most popular CSS properties. Made by Jeremy Thomas.
 
-## articals
+## Reading materials
 * [The 100% correct way to do CSS breakpoints](https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.oa42c22nw)
 * [How to build your own progressive image loader](https://www.sitepoint.com/how-to-build-your-own-progressive-image-loader/)
 * [HTML & CSS is Hard](https://internetingishard.com/html-and-css/)
 * [Design Patterns for HUMANS](https://github.com/kamranahmedse/design-patterns-for-humans)
-
+* [An Ultimate Guide To CSS Pseudo-Classes
+And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
 
 ## Frameworks
 * [Bootstrap](http://getbootstrap.com/)
@@ -85,8 +87,6 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 # Online Tools
 * [HTML5 Outliner](https://gsnedders.html5.org/outliner/)
 * [Can I use](http://caniuse.com/)
-* [cssreference](http://cssreference.io/)
-  A beautifully made free visual guide to CSS with illustrated and animated examples of the most popular CSS properties. Made by Jeremy Thomas.
 
 
 # Popular and fine things
