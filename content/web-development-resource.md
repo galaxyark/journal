@@ -13,6 +13,7 @@
 * [JavaScript Weekly](http://javascriptweekly.com)
 * [Smashing Magazine](https://www.smashingmagazine.com/)
 * [sitepoint](https://www.sitepoint.com/)
+* [scotch.io](https://scotch.io/)
 * [YouTube channels for frontend developers](https://github.com/andrew--r/channels)
 
 ## Articles
@@ -26,40 +27,35 @@
 * [Chartjs](http://www.chartjs.org/)
 * [d3js](https://d3js.org/)
 
-## Frameworks
-* [React](https://facebook.github.io/react/)
-* [Redux](http://redux.js.org/)
-* [Angular](https://angular.io/)
-
 ## Performance
 * [Async Fragments](http://www.ebaytechblog.com/2014/12/08/async-fragments-rediscovering-progressive-html-rendering-with-marko/)
 
-# UI
+
+# UI/UX
 ## Collections
 * [Codrops](http://tympanus.net/codrops/)
 * [CSS Tricks](https://css-tricks.com/)
 * [An Ultimate Guide To CSS Pseudo-Classes
 And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
+* [Nielsen Norman Group](https://www.nngroup.com)
 
 ## articals
 * [The 100% correct way to do CSS breakpoints](https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.oa42c22nw)
 * [How to build your own progressive image loader](https://www.sitepoint.com/how-to-build-your-own-progressive-image-loader/)
+* [HTML & CSS is Hard](https://internetingishard.com/html-and-css/)
+* [Design Patterns for HUMANS](https://github.com/kamranahmedse/design-patterns-for-humans)
 
 
 ## Frameworks
 * [Bootstrap](http://getbootstrap.com/)
 * [Semantic UI](http://semantic-ui.com/)
 
-# UX
-* [Nielsen Norman Group](https://www.nngroup.com)
 
 # Package & Build
 * [webpack](https://webpack.github.io/)
 * [gulp](http://gulpjs.com/)
 * [Yeoman](http://yeoman.io/)
 
-# Other
-* [AdminLTE](https://almsaeedstudio.com)
 
 # Architecture
 * [Infrastructure at Scale Series Articles](https://engineering.linkedin.com/blog/topic/infrastructure-at-scale-series)
@@ -72,6 +68,7 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 * [Udemy](https://www.udemy.com/)
 * [JavaScript 30](https://javascript30.com/)
 
+
 # Inspiration
 ## Components
 * [React Burger Menu](http://negomi.github.io/react-burger-menu/)
@@ -82,12 +79,14 @@ And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-
 * [Yatzer](https://www.yatzer.com/)
 * [Sequence](https://www.sequence.co.uk/)
 
+
 # Online Tools
 * [HTML5 Outliner](https://gsnedders.html5.org/outliner/)
 * [Can I use](http://caniuse.com/)
 * [cssreference](http://cssreference.io/)
   A beautifully made free visual guide to CSS with illustrated and animated examples of the most popular CSS properties. Made by Jeremy Thomas.
 
-# Tutorial
-* [HTML & CSS is Hard](https://internetingishard.com/html-and-css/)
-* [Design Patterns for HUMANS](https://github.com/kamranahmedse/design-patterns-for-humans)
+
+# Popular and fine things
+* [AdminLTE](https://almsaeedstudio.com)
+
