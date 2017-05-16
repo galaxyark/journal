@@ -12,8 +12,10 @@
 ## Collections
 * [JavaScript Weekly](http://javascriptweekly.com)
 * [Smashing Magazine](https://www.smashingmagazine.com/)
+* [A List Apart](https://alistapart.com/)
 * [sitepoint](https://www.sitepoint.com/)
 * [scotch.io](https://scotch.io/)
+* [Medium](https://medium.com/)
 * [YouTube channels for frontend developers](https://github.com/andrew--r/channels)
 
 ## Articles
