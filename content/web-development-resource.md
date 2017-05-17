@@ -5,11 +5,11 @@
 * [sitepoint](https://www.sitepoint.com/)
 * [scotch.io](https://scotch.io/)
 * [Medium](https://medium.com/)
-* [YouTube channels for frontend developers](https://github.com/andrew--r/channels)
 * [Codrops](http://tympanus.net/codrops/)
 * [CSS Tricks](https://css-tricks.com/)
 * [Nielsen Norman Group](https://www.nngroup.com)
-
+* [uxdesign.cc](https://uxdesign.cc/)
+* [YouTube channels for frontend developers](https://github.com/andrew--r/channels)
 
 # JavaScript
 Something about JavaScript
