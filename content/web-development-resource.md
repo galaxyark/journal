@@ -49,11 +49,12 @@ Something about UI
 * [Design Patterns for HUMANS](https://github.com/kamranahmedse/design-patterns-for-humans)
 * [An Ultimate Guide To CSS Pseudo-Classes
 And Pseudo-ELEMENTS](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/)
-*[HTTP/REST api file uploads](https://philsturgeon.uk/api/2016/01/04/http-rest-api-file-uploads/)
+* [HTTP/REST api file uploads](https://philsturgeon.uk/api/2016/01/04/http-rest-api-file-uploads/)
 
 ## Frameworks
 * [Bootstrap](http://getbootstrap.com/)
 * [Semantic UI](http://semantic-ui.com/)
+* [materialize](http://materializecss.com/)
 
 
 # Package & Build
